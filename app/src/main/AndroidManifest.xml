@@ -13,10 +13,16 @@
         android:theme="@style/Theme.SportsKeeda">
         <activity
             android:name=".MainActivityVolley"
+            android:exported="true" />
+        <activity
+            android:name=".RetrofitActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChooseTypeActivity"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

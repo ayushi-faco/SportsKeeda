@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SportsKeeda</string>
+    <string name="using_volley">Using Volley</string>
+    <string name="using_retro">Using Retrofit</string>
 </resources>
